@@ -7,6 +7,7 @@
     width: 100vw;
     top: 0;
     background: #fff;
+    z-index: 1;
     }
     
 .logo{
@@ -30,8 +31,44 @@
     background-attachment: fixed;
     margin-top:7px;
     width: 100vw;
+    font-family: 'Righteous', cursive;
+    position: relative;
 }
 
+.intro-text{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-family: 'Righteous', cursive;
+}
+.head-main{
+   font-size: 55px;
+    text-align: center;
+    color: darkcyan;
+}
+hr{
+    color: #000000;
+}
+
+.head-sub{
+    
+    font-size: 40px;
+    text-align: center;
+    color: darkslategray;
+}
+
+@media(max-width:420px)
+{
+    .logo{
+        font-size: 40px;
+    }
+    .head-main{
+        font-size: 20px;
+    }
+    .head-sub{
+        font-size:10px;
+    }
+}
 .dummy{
     height: 1000px;
 }

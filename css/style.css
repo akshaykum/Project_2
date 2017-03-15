@@ -20,6 +20,7 @@
     font-size: 15px;
     padding: 4px 0px;
     color: cornflowerblue;
+    width: 100vw;
 } 
 
 /*intro*/
@@ -46,7 +47,7 @@
     text-align: center;
     color: darkcyan;
 }
-hr{
+.intro-text hr{
     color: #000000;
 }
 
@@ -57,18 +58,55 @@ hr{
     color: darkslategray;
 }
 
+/*media query*/
 @media(max-width:420px)
 {
     .logo{
         font-size: 40px;
     }
     .head-main{
-        font-size: 20px;
+        font-size: 35px;
+        margin-top: 200px;
     }
     .head-sub{
-        font-size:10px;
+        font-size: 20px;
+        margin-top: -20px;
     }
 }
+
+/*about-us section*/
+.aboutus{
+    text-align: center;
+    width: 100vw;
+    
+}
+
+.about-head{
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 0 0 0;
+    color: #7d92da;
+    width: 100vw;
+}
+
+.aboutus hr{
+    border-color: darkgrey;
+}
+
+.about-desc{
+    font-family: cursive;
+    color: darkslategray;
+    font-size: 20px;
+    width: 100vw;
+}
+
+.aboutus img{
+    padding: 10px;
+    width: 100%; 
+}
+
+
 .dummy{
     height: 1000px;
 }

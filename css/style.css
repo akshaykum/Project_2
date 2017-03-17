@@ -4,7 +4,7 @@
     text-align: center;
 }
 .row{
-    margin: 0px important;
+    margin: 0px !important;
 }
 .navbar{
     padding: 10px 0px;
@@ -79,6 +79,8 @@
         font-size: 20px;
         margin-top: -20px;
     }
+    
+    
 }
 
 /*about-us section*/
@@ -144,8 +146,11 @@
 
 .free-image img{
   height:200px;
-  width: 300px;
-  padding:10px 0;   
+  width: 300px;   
+}
+
+.free-image img:hover{
+    border:1px solid black;
 }
 
 /*people*/
